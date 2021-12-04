@@ -9,7 +9,7 @@
     --main-white: #fff;
     --main-yellow: #FDD808;
     --main-purple: #D808FD;
-    --main-green: rgb(9, 255, 0);
+    --main-green: rgb(32, 146, 28);
     --second-blue: #0b56ff;
     --navbar-size: 160px;
     --navbar-size-margin: 180px;
@@ -106,9 +106,9 @@ h3 {
     padding: 10px;
     margin-bottom: 50px;
     font-size: 26px;
-    color: var(--main-purple);
-    border-top: 2px solid var(--main-purple);
-    border-bottom: 2px solid var(--main-purple);
+    color: pink;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
 }
 
 h4 {
@@ -131,10 +131,20 @@ article>p {
 }
 
 table {
-    text-align: justify;
     color: var(--second-gray);
     font-size: 20px;
     margin-right: 10px;
+    margin-left: 10px;
+    border: solid 1px;
+}
+
+td {
+    padding-right: 20px;
+    border: solid 1px;
+}
+
+th {
+    border: solid 1px;
 }
 
 article>ul {
@@ -660,5 +670,9 @@ ul>li {
         display: flex;
         justify-content: center;
         height: 25%;
+    }
+
+    article {
+        margin-left: 0;
     }
 }
