@@ -42,6 +42,7 @@ article{
     margin-left: var(--navbar-size-margin);
 }
 
+
 .little {
     display: none;
 }
@@ -214,32 +215,11 @@ ul > li{
 
 
 
-/*CODE ICI*/
+
 
 
 
 /*PARTIE CSS*/
-.presentation_texte {
-    text-align: justify;
-    text-indent: 50px;
-    margin-left: var(--navbar-size-margin);
-    margin-top: 20px;
-    margin-right: 2%;
-    color: var(--main-white);
-    font-size: 25px;
-}
-
-.liste_puce {
-    margin-top: 2%;
-    list-style-type: circle;
-}
-
-#ecologie {
-    color: var(--main-white);
-    margin: var(--navbar-size-margin);
-    font-size: var(--font-size);
-}
-
 footer {
     font-weight: bold;
     background-color: var(--main-gray);
@@ -264,44 +244,6 @@ footer {
 .logo {
     width: 500px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*GRANDE NAVBAR*/
 #navbar-container {
@@ -424,11 +366,6 @@ footer {
 }
 
 
-
-
-
-
-
 /*RESPONSIVE*/
 /*1500px * 800px*/
 @media (max-width: 1500px) {
@@ -532,25 +469,6 @@ footer {
         height: 25%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*SECTION SOMMAIRE*/
