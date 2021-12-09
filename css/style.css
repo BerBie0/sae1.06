@@ -675,4 +675,12 @@ ul>li {
     article {
         margin-left: 0;
     }
+
+    footer {
+        margin-left: 0%;
+    }
+
+    #summary {
+        margin-left: 0%;
+    }
 }
