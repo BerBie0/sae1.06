@@ -11,7 +11,7 @@ menuIcon.addEventListener('click', () => {
     line3.classList.toggle('change');
 });
 
-
+/*
 const produits = document.querySelector('.produits');
 const bike = document.querySelector('.nav-bike');
 const menuIcon2 = document.querySelector('.hamburger-menu');
@@ -32,4 +32,4 @@ compte.addEventListener('click', () => {
 
 messagerie.addEventListener('click', () => {
     bike.classList.remove('change');
-});
+});*/
