@@ -27,6 +27,11 @@
     src: url('../font/LaBelleAurore.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'orange';
+    src: url('../font/orange\ juice\ 2.0.ttf') format('truetype');
+}
+
 /*COMMON STRUCTURE*/
 * {
     margin: 0;
@@ -99,6 +104,13 @@ footer a img.logo {
     width: 400px;
 }
 
+article.eco-container{
+    display: flex;
+    flex-direction: row;
+}
+.eco-container img{
+    width: 400px;
+}
 
 
 
@@ -112,16 +124,17 @@ footer a img.logo {
 
 
 /*COMMON ELEMENT STRUCTURE*/
-h1 {
-    color: var(--main-red);
+h1,h1.bkg-img {
+    color: var(--main-white);
     border-top: 2px solid var(--main-red);
     border-bottom: 2px solid var(--main-red);
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     letter-spacing: 3px;
     padding: 60px;
     margin-bottom: 100px;
     margin-left: var(--navbar-size);
+    font-family: "orange";
 }
 
 h2 {
@@ -161,7 +174,7 @@ h4 {
 article>p {
     text-align: justify;
     text-indent: 50px;
-    color: var(--second-gray);
+    color: var(--main-white);
     font-size: 20px;
     width: 80%;
 }
