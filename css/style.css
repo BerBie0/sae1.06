@@ -32,6 +32,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--main-white);
 }
 
 body {
@@ -49,31 +50,56 @@ article {
     flex-wrap: wrap;
     margin-left: var(--navbar-size-margin);
 }
-
+.google-map{
+    width: 1680;
+    height: 400;
+}
+h1.bkg-img{
+    background-image: url(../img/Wasselonne_panorama_ville_2011_edit.png);
+    background-position: 40% 30%;
+    color: var(--main-red);    
+}
 footer {
     font-weight: bold;
     background-color: var(--main-gray);
     color: var(--main-black);
-    margin-top: var(--navbar-size-margin);
+    margin-top: 5px;
     margin-left: var(--navbar-size);
     font-size: var(--font-size);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.footer-left {
-    flex-direction: row;
+div.footer-left {
+    font-size: 16px;
+    color: black;
+    /* background-color: var(--black); */
 }
 
-.footer-right {
-    text-align: right;
+footer{
+    border: 5px var(--main-red);
+    color: var(--main-black);
 }
 
-.logo {
-    width: 500px;
+.footer-center {
+    font-size: 16px;
+    height: 100%;
+    color: black;
+    /* background-color: #0b56ff; */
 }
+footer a{
+    /* border: 5px var(--main-red);
+    border-style: groove;
+    border-radius: 5px; */
+}
+
+footer a img.logo {
+    width: 400px;
+}
+
+
 
 
 .little {
@@ -83,6 +109,7 @@ footer {
 .little-800 {
     display: none;
 }
+
 
 /*COMMON ELEMENT STRUCTURE*/
 h1 {
@@ -165,8 +192,13 @@ article>ul {
 }
 
 ul>li {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     list-style-type: none;
+}
+
+li.navbar-item-item2:hover{
+    background-color: rgb(255, 248, 248);
+    color: #000;
 }
 
 /*BUTTON*/
@@ -347,8 +379,11 @@ ul>li {
     padding: 3px 0;
 }
 
-.nav-link:hover {
-    color: var(--main-blue) !important;
+
+.nav-link:hover span {
+    color: var(--main-black) !important;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .nav-link::before,
@@ -665,7 +700,7 @@ ul>li {
     }
 
     .logo {
-        opacity: 0;
+        /* opacity: 0; */
     }
 
     .navbar-container .nav {
