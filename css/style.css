@@ -109,9 +109,25 @@ article.eco-container{
     flex-direction: row;
 }
 .eco-container img{
-    width: 400px;
+    float: right;
+    max-width: 40%;
+    margin-left: 10px;
 }
-
+.eco-container div{
+    float: left;
+    padding: 5px;
+}
+.eco-container > p{
+    display: block;
+    width: 100%;
+}
+.eco-container div p{
+    display: block;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
 
 
 .little {
@@ -171,7 +187,7 @@ h4 {
     text-underline-offset: 6px;
 }
 
-article>p {
+article>p, article p {
     text-align: justify;
     text-indent: 50px;
     color: var(--main-white);
