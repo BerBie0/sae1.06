@@ -664,10 +664,6 @@ ul>li {
         visibility: visible;
     }
 
-    .logo {
-        opacity: 0;
-    }
-
     .navbar-container .nav {
         display: flex;
         justify-content: space-around;
