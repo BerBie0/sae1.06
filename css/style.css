@@ -105,7 +105,6 @@ footer a img.logo {
 }
 
 article.eco-container{
-    display: flex;
     flex-direction: row;
 }
 .eco-container img{
@@ -128,6 +127,27 @@ article.eco-container{
 .clear{
     clear: both;
 }
+/* figure.img-diagno{
+    display: block;
+    background-color: #08FDD8;
+    width: 100%;
+} */
+figure.img-diagno{
+    background-color: #08FDD8;
+    margin:0 auto;
+    display:block;
+}
+figure.img-diagno>img {
+    display:block;
+    margin:0 auto;
+}
+
+
+/* figure img{
+    max-width: 602px;
+    width: 140%;
+    height: auto;
+} */
 
 
 .little {
@@ -222,7 +242,7 @@ article>ul {
 
 ul>li {
     /* margin-top: 15px; */
-    list-style-type: none;
+    list-style-type: square;
 }
 
 li.navbar-item-item2:hover{
@@ -694,7 +714,7 @@ li.navbar-item-item2:hover{
 
 /*RESPONSIVE*/
 /*1000px * 800px*/
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     ul {
         width: 100%;
     }
@@ -809,8 +829,60 @@ li.navbar-item-item2:hover{
 }
 
 /*GRID*/
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
     .flip-card-front {
         font-size: 12px;
     }
+    h1,h1.bkg-img {
+        font-size: 50px;
+        margin-left: 0;
+    }
+    h2{
+        background-color: #2C2C2C;
+    }
+    h5 {
+        padding: 0 4%;
+        margin: 3px 0px;
+        font-size: 19px;
+        /* text-decoration: underline overline dashed; */
+        text-underline-offset: 6px;
+        width: 100%;
+        border-left: 5px white ;
+        border-top: 5px white ;
+        border-left-style: double;
+        border-top-style: double;
+    }
+    h6 {
+        padding: 0 7%;
+        margin: 3px 0px;
+        font-size: 19px;
+        text-decoration: underline overline dashed;
+        text-underline-offset: 6px;
+    }
+    article {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    article>p, article p {
+        flex:1;
+        padding: 0 4%;
+        word-spacing:-2px;
+        text-indent: 15px;
+        font-size: 18px;
+        width: 90%;
+    }
+    article>ul{
+        list-style-type: circle;
+        align-self: center;
+
+    }
+    figure.img-diagno img{
+        max-width:100%;
+        max-height:100%;    
+    }
+    /* Force table to not be like tables anymore */
+	.table-style{ 
+		overflow-x: auto;
+	}
+	
 }
