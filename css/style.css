@@ -826,19 +826,14 @@ li.navbar-item-item2:hover{
     h1,h2,h3,h4 {
         margin-left: 0%;
     }
-}
-
-/*GRID*/
-@media screen and (max-width: 750px) {
-    .flip-card-front {
-        font-size: 12px;
-    }
     h1,h1.bkg-img {
         font-size: 50px;
         margin-left: 0;
     }
-    h2{
-        background-color: #2C2C2C;
+    h4{
+        background-color: #c70d0d;
+        margin-bottom: 10px;
+        margin-top: 0px;
     }
     h5 {
         padding: 0 4%;
@@ -862,14 +857,17 @@ li.navbar-item-item2:hover{
     article {
         align-items: flex-start;
         flex-direction: column;
+        background-color: #0b56ff;
     }
-    article>p, article p {
+    article>p, article p{
         flex:1;
-        padding: 0 4%;
+        padding: 0 5%;
+        max-width: 100%;
         word-spacing:-2px;
         text-indent: 15px;
         font-size: 18px;
-        width: 90%;
+        width: 100%;
+        margin-bottom: 10px;
     }
     article>ul{
         list-style-type: circle;
@@ -884,5 +882,11 @@ li.navbar-item-item2:hover{
 	.table-style{ 
 		overflow-x: auto;
 	}
-	
+}
+
+/*GRID*/
+@media screen and (max-width: 750px) {
+    .flip-card-front {
+        font-size: 12px;
+    }
 }
