@@ -169,6 +169,11 @@ ul>li {
     list-style-type: none;
 }
 
+video {
+    margin-left: var(--navbar-size-margin);
+    width: 82%;
+}
+
 /*BUTTON*/
 .btn {
     text-decoration: none;
@@ -723,20 +728,25 @@ ul>li {
     }
 
 
-    article {
-        margin-left: 0;
-    }
-
-    footer {
+    article, footer, #summary, h1, h2, h3, h4 {
         margin-left: 0%;
     }
 
-    #summary {
-        margin-left: 0%;
+    .logoRes {
+        width: 90%;
     }
 
-    h1,h2,h3,h4 {
-        margin-left: 0%;
+    .btn{
+        width: 70%;
+        font-size: 9px;
+        padding-left: 20%;
+    }
+
+    video {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
     }
 }
 
