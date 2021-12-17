@@ -1,4 +1,4 @@
-/*VAR*/
+/*VARIABLES*/
 :root {
     --black: #000;
     --main-black: #1E1E1E;
@@ -17,6 +17,7 @@
     --font-size: 20px;
 }
 
+/*FONT*/
 @font-face {
     font-family: 'batman';
     src: url('../font/batman.ttf') format('truetype');
@@ -75,7 +76,6 @@ footer {
     width: 500px;
 }
 
-
 .little {
     display: none;
 }
@@ -107,7 +107,6 @@ h2 {
     text-decoration: underline overline;
     text-underline-offset: 6px;
 }
-
 
 h3 {
     text-align: center;
@@ -173,49 +172,6 @@ video {
     margin-left: var(--navbar-size-margin);
     width: 82%;
 }
-
-/*BUTTON*/
-.btn {
-    text-decoration: none;
-    color: var(--main-blue);
-    border: solid 2px var(--main-blue);
-    font-size: 16px;
-    padding: 10px 30px;
-    position: relative;
-    display: inline-block;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    overflow: hidden;
-}
-
-.btn:hover {
-    color: #000;
-}
-
-.btn span {
-    position: absolute;
-    display: block;
-    width: 0px;
-    height: 0px;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    border-bottom: 50%;
-    background-color: var(--main-blue);
-    transition: width 0.7s, height 0.7s;
-    z-index: -1;
-}
-
-.btn:hover span {
-    width: 400px;
-    height: 300px;
-}
-
-.min-width-btn {
-    width: 163px;
-    text-align: center;
-}
-
 
 /*SECTION NAVBAR + SVG*/
 .navbar-container {
@@ -305,9 +261,6 @@ video {
     width: 100%;
 }
 
-
-/*SVG AW*/
-/*CHILD 1*/
 #svg-container {
     list-style-type: none;
     text-decoration: none;
@@ -636,10 +589,28 @@ video {
 /*RESPONSIVE*/
 /*1000px * 800px*/
 @media (max-width: 1000px) {
+
+    /*COMMON STRUCTURE + ELEMENT*/
+    article, footer, #summary, h1, h2, h3, h4 {
+        margin-left: 0%;
+    }
+
+    video {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+    }
+
     ul {
         width: 100%;
     }
 
+    .flip-card-front {
+        font-size: 12px;
+    }
+
+    /*MENU + SVG*/
     .nav-burger {
         z-index: 100;
     }
@@ -727,32 +698,122 @@ video {
         transform: rotate(-45deg);
     }
 
-
-    article, footer, #summary, h1, h2, h3, h4 {
-        margin-left: 0%;
-    }
-
     .logoRes {
         width: 90%;
     }
 
-    .btn{
-        width: 70%;
-        font-size: 9px;
-        padding-left: 20%;
-    }
-
-    video {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 90%;
-    }
 }
 
 /*GRID*/
 @media (max-width: 750px) {
+
+    /*SUMMARY*/
+    #summary {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        margin: 0;
+        padding: 0;
+    }
+
+    .works-item {
+        margin: 0;
+        padding: 0;
+    }
+
     .flip-card-front {
         font-size: 12px;
+    }
+
+    .works-item.item1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        height: 100%;
+    }
+
+    .works-item.item2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        height: 100%;
+    }
+
+    .works-item.item3 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        height: 100%;
+    }
+
+    .works-item.item4 {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .works-item.item5 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .works-item.item6 {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+
+    .works-item.item7 {
+        grid-column: 1 / 4;
+        grid-row: 5 / 6;
+    }
+
+    .works-item.item8 {
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+    }
+
+    .works-item.item9 {
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+    }
+
+    .works-item.item10 {
+        grid-column: 2 / 3;
+        grid-row: 7 / 8;
+    }
+
+    .works-item.item11 {
+        grid-column: 3 / 4;
+        grid-row: 7 / 8;
+    }
+
+    .works-item.item12 {
+        grid-column: 1 / 2;
+        grid-row: 8 / 9;
+    }
+
+    .works-item.item13 {
+        grid-column: 2 / 3;
+        grid-row: 8 / 9;
+    }
+
+    .works-item.item14 {
+        grid-column: 1 / 4;
+        grid-row: 9 / 10;
+    }
+
+    .works-item.item15 {
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
+    }
+
+    .works-item.item16 {
+        grid-column: 2 / 3;
+        grid-row: 10 / 11;
+    }
+
+    .works-item.item17 {
+        grid-column: 3 / 4;
+        grid-row: 10 / 11;
+    }
+
+    .works-item.item18 {
+        grid-column: 1 / 4;
+        grid-row: 11 / 12;
     }
 }
