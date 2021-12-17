@@ -83,6 +83,12 @@ footer {
 .little-800 {
     display: none;
 }
+/*REMOVE NAVBAR MARGIN*/
+.no-margin{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
 
 /*COMMON ELEMENT STRUCTURE*/
 h1 {
@@ -169,7 +175,6 @@ ul>li {
 }
 
 video {
-    margin-left: var(--navbar-size-margin);
     width: 82%;
 }
 
