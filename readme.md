@@ -8,13 +8,15 @@
 ### Sources
 
 * http://www.amperiste.fr/phpBB3/viewtopic.php?t=3108 
-* * Par Gavzel paru le jeudi 14 avr. 2016 consulté le 10/11/2021
-•	https://www.capital.fr/entreprises-marches/attention-linflation-est-de-retour-et-ca-va-faire-mal-1395380
+  *Par Gavzel paru le jeudi 14 avr. 2016 consulté le 10/11/2021
+  
+*	https://www.capital.fr/entreprises-marches/attention-linflation-est-de-retour-et-ca-va-faire-mal-1395380
 
-•	https://fr.chargemap.com/leclerc-wasselonne.html 
-Écrit par Marc Touati, Mis à jour le 28/02/2021, consulté le 15/11/2021
-•	https://c3invest.fr/le-prix-des-matieres-premieres-a-la-hausse/
-Consulté le 15/11/2021
+*	https://fr.chargemap.com/leclerc-wasselonne.html 
+  *Écrit par Marc Touati, Mis à jour le 28/02/2021, consulté le 15/11/2021
+  
+* https://c3invest.fr/le-prix-des-matieres-premieres-a-la-hausse/
+  *Consulté le 15/11/2021
 
 
 •	https://www.insee.fr/fr/statistiques/2122401
