@@ -89,6 +89,47 @@ footer {
     margin-bottom: 20px;
     padding: 0;
 }
+/*BUTTON*/
+.btn {
+    text-decoration: none;
+    color: var(--main-blue);
+    border: solid 2px var(--main-blue);
+    font-size: 16px;
+    padding: 10px 30px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.btn:hover {
+    color: #000;
+}
+
+.btn span {
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-bottom: 50%;
+    background-color: var(--main-blue);
+    transition: width 0.7s, height 0.7s;
+    z-index: -1;
+}
+
+.btn:hover span {
+    width: 400px;
+    height: 300px;
+}
+
+.min-width-btn {
+    width: 163px;
+    text-align: center;
+}
 
 /*COMMON ELEMENT STRUCTURE*/
 h1 {
