@@ -4,7 +4,7 @@
     --main-black: #1E1E1E;
     --second-black: #2C2C2C;
     --main-gray: #7B7B7B;
-    --second-gray: #b9b9b9;
+    --second-gray: #cac9c9; /* #b9b9b9 */
     --main-red: #FF0B56;
     --main-blue: #08FDD8;
     --main-white: #fff;
@@ -74,6 +74,7 @@ footer {
 
 .logo {
     width: 500px;
+    max-width:100%;
 }
 
 .little {
@@ -250,7 +251,7 @@ video {
     display: block;
     font-size: 16px;
     padding: 10px 0;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--main-white);
     text-transform: capitalize;
     transition: all 0.5s ease;
     text-decoration: none;
@@ -259,6 +260,7 @@ video {
 .navbar-container .nav ul li a:hover,
 .navbar-container .nav ul li a.active {
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .navbar-container #nav-active {
