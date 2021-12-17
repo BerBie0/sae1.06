@@ -210,6 +210,11 @@ article>ul {
     width: 60%;
 }
 
+nav>ul>li {
+    margin: 0;
+    list-style-type: none;
+}
+
 ul>li {
     margin-top: 15px;
     list-style-type: none;
