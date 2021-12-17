@@ -260,7 +260,6 @@ video {
 .navbar-container .nav ul li a:hover,
 .navbar-container .nav ul li a.active {
     color: #ffffff;
-    text-transform: uppercase;
 }
 
 .navbar-container #nav-active {
