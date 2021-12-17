@@ -8,7 +8,7 @@
 ### Sources
 
 * http://www.amperiste.fr/phpBB3/viewtopic.php?t=3108 
-* Par Gavzel paru le jeudi 14 avr. 2016 consulté le 10/11/2021
+** Par Gavzel paru le jeudi 14 avr. 2016 consulté le 10/11/2021
 •	https://www.capital.fr/entreprises-marches/attention-linflation-est-de-retour-et-ca-va-faire-mal-1395380
 
 •	https://fr.chargemap.com/leclerc-wasselonne.html 
