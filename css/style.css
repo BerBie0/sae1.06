@@ -748,6 +748,9 @@ video {
         width: 90%;
     }
 
+    .btn{
+        font-size: 9px;
+    }
 }
 
 /*GRID*/
